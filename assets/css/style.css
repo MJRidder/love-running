@@ -163,6 +163,12 @@ hr {
     color: #ffffff;
 }
 
+/* Meetup times section */
+#times > div {
+    display: flex;
+    flex-direction: column;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
