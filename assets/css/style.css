@@ -366,17 +366,17 @@ main {
     }
 }
 
-    /* Media query: tablets and larger (992px and up) */
-    @media screen and (min-width: 992px) {
-        #menu a:hover {
-            border-bottom: 1px solid #3a3a3a;
-        }
-
-        /* Gallery */
-        #photos {
-            column-count: 4;
-        }
+/* Media query: tablets and larger (992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
     }
+
+    /* Gallery */
+    #photos {
+        column-count: 4;
+    }
+}
 
 /* Media query: laptops and screens (1200px and up) */
 @media screen and (min-width: 1200px) {
